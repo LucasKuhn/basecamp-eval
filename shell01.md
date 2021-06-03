@@ -1,11 +1,10 @@
 # Shell01
-#basecamp/evaluation
 
-### ex00
+## ex00
 - [ ] Se inscreveu no Exame00 - Evento
 - [ ] Se inscreveu no Exame00 - Projeto
 
-### ex01
+## ex01
 > Escreva uma linha de comando que determine e mostre a lista de grupos dos quais o login especificado na variável de ambiente FT_USER é membro, separando-os por vírgulas sem espaços  
 
 ```sh
@@ -15,7 +14,7 @@ FT_USER=staff ./print_groups.sh
 # staff,:,staff,god,main,bocal$>
 ```
 
-### ex02
+## ex02
 > Escreva uma linha de comando que procure na pasta atual e em todas as subpastas todos os arquivos cujos nomes terminam com “.sh”(sem as aspas) e que só exiba os seus nomes, sem o .sh.  
 
 ```sh
@@ -25,9 +24,13 @@ mkdir folder ; touch folder/subfile.sh
 mkdir folder/subfolder ; mkdir folder/subfolder/subsubfile.sh
 
 ./find_sh.sh | cat -e
+# find_sh$
+# file$
+# subfile$
+# subsubfile$
 ```
 
-### ex03
+## ex03
 > Escreva uma linha de comando que mostre o número de arquivos regulares e de pastas dentro da pasta atual e todas as suas subpastas, incluindo o “.”da pasta inicial.  
 
 ```sh
