@@ -73,7 +73,7 @@ touch file1 file2 file3 file4 file5
 > Escreva uma linha de comando que exiba a saída de um cat _etc_passwd, retirando os comentários, uma linha a cada duas começando pela segunda, invertendo cada login e ordenando em ordem alfabética inversa, mantendo apenas os logins compreendidos entre FT_LINE1 e FT_LINE2 inclusos, separados por “, “(sem aspas), e terminando com “.”.  
 ```sh
 FT_LINE1=0 FT_LINE2=4 ./r_dwssap.sh
-# yxorp,ydobon,XX,sys.$>
+# yxorp, ydobon, XX, sys.$>
 FT_LINE1=7 FT_LINE2=15 ./r_dwssap.sh
 # pukcab, pl, nomead, mixe-naibeD, goltig, ffats, evloser-dmetsys, cri, cnysemit-dmetsys.$>
 ```
